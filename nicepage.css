@@ -34272,6 +34272,13 @@ a.u-link.u-text-hover-grey-90:hover {
   background-image: none;
 }
 
+.u-header .u-sidenav-1 {
+  width: 220px;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 60px 0 0;
+}
+
 .u-header .u-menu-close-1 {
   height: 28px;
   margin: 24px 125px 0 103px;
@@ -34384,11 +34391,13 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 575px) {
   .u-header {
-    min-height: 18289px;
+    min-height: 60px;
   }
 
   .u-header .u-menu-1 {
-    margin-left: calc(((100% - 340px) / 2) + 20px);
+    margin-top: 14px;
+    margin-bottom: 14px;
+    margin-left: calc(((100% - 340px) / 2) + 29px);
   }
 
   .u-header .u-menu-close-1 {
